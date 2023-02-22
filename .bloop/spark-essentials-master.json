@@ -130,6 +130,7 @@
             "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar",
             "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.7.4/hadoop-mapreduce-client-app-2.7.4.jar",
             "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar",
+            "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.2.2/postgresql-42.2.2.jar",
             "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.7.4/hadoop-yarn-server-nodemanager-2.7.4.jar",
             "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
             "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/orc/orc-shims/1.5.8/orc-shims-1.5.8.jar",
@@ -2226,6 +2227,23 @@
                             "name": "hadoop-mapreduce-client-core",
                             "classifier": "sources",
                             "path": "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.postgresql",
+                    "name": "postgresql",
+                    "version": "42.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "postgresql",
+                            "path": "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.2.2/postgresql-42.2.2.jar"
+                        },
+                        {
+                            "name": "postgresql",
+                            "classifier": "sources",
+                            "path": "/home/zelator/.cache/coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/42.2.2/postgresql-42.2.2-sources.jar"
                         }
                     ]
                 },
