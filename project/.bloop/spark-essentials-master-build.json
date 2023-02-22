@@ -190,7 +190,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/home/zelator/jdk-17.0.6",
+                "home": "/usr/lib/jvm/jdk-11",
                 "options": [
                     "-Duser.dir=/home/zelator/Documents/Scala/spark-essentials-master/project"
                 ]
