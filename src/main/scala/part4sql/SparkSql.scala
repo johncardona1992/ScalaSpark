@@ -60,17 +60,17 @@ object SparkSql extends App {
     }
   }
 
-  // transferTables(List(
-  //   "employees",
-  //   "departments",
-  //   "titles",
-  //   "dept_emp",
-  //   "salaries",
-  //   "dept_manager")
-  // )
+  transferTables(List(
+    "employees",
+    "departments",
+    "titles",
+    "dept_emp",
+    "salaries",
+    "dept_manager")
+  )
 
-  // // read DF from loaded Spark tables
-  // val employeesDF2 = spark.read.table("employees")
+  // read DF from loaded Spark tables
+  val employeesDF2 = spark.read.table("employees")
 
   // /**
   //   * Exercises
